@@ -11,5 +11,8 @@
                  [hiccup "1.0.5"]
                  [org.clojure/clojure "1.8.0"]
                  [ring/ring-defaults "0.2.0"]
-                 [proto-repl "0.1.2"]]
+                 [proto-repl "0.1.2"]
+                 [clj-http "2.2.0"]
+                 [cheshire "5.6.1"]
+                 [overtone/at-at "1.2.0"]]
   :ring {:handler webapp.core/handler-with-middleware})
