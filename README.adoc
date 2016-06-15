@@ -1,0 +1,8 @@
+= Netzfrequenz monitor
+Clojure course project to monitoring the power grid frequency
+
+== Resources
+* Google charts histogram: https://developers.google.com/chart/interactive/docs/gallery/histogram
+* Clojure streaming histogram library: https://github.com/bigmlcom/histogram
+* D3 based histogram: http://bl.ocks.org/mbostock/3048450 via http://stackoverflow.com/questions/11919787/d3-reusable-histogram relating to https://github.com/d3/d3/wiki/Histogram-Layout
+* Explicit current grid frequency in JSON https://www.netzfrequenz.info/json/aktuell.json and implicit variant: https://www.netzfrequenz.info/json/aktuell2.json
